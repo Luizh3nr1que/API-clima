@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    color: #FFF;
+    margin: 20px 0;
+}
+
+.busca {
+    display: flex;
+    width: 300px;
+}
+
+#searchInput {
+    height: 60px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 490px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+}
+
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #00f7ff;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: .12px 15px;
+
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.busca button:hover {
+    color: black;
+    background-color: #61cdd1;
+}
+
+.resultado {
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+    display: none;
+    border: 1px dotted #00f7ff;
+    margin-top: 28px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: .5rem 2rem;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition: 0.2s;
+}
+
+.resultado:hover {
+    box-shadow: none;
+    transform: scale(1.05);
+    filter: drop-shadow(0px 0px 10px rgb(0, 247, 255));
+}
+
+.titulo {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.info .temp {
+    flex: 1;
+    text-align: center;
+}
+
+.info .vento {
+    flex: 1;
+    text-align: center;
+}
+
+.tempTitulo,
+.ventoTitulo {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.tempInfo,
+.ventoInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tempInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.aviso {
+    color: #FFF;
+    padding-top: 20px;
+}
