@@ -1,44 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clima</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Luiz Henrique | clima</title>
 </head>
 
 <body>
-    <h1>Veja o Clima da sua Cidade</h1>
+
+
+    <h1>Veja o Clima de qualquer lugar</h1>
 
     <form class="busca " autocomplete="off">
-        <input style="font-size: 20px;" placeholder="Digite uma Cidade" type="search" id="searchInput" />
-        <button>Buscar</button>
+        <input style="font-size: 20px;" placeholder="Digite uma Cidade/Pais" type="search" id="searchInput" />
+        <button><ion-icon name="search-outline"></ion-icon></button>
     </form>
 
 
     <div class="resultado">
+
         <div class="titulo">--</div>
 
         <div class="info">
             <div class="temp">
                 <div class="tempTitulo">Temperatura</div>
                 <div class="tempInfo">-- <sup>ºC</sup></div>
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
             </div>
             <div class="vento">
                 <div class="ventoTitulo">Vento</div>
                 <div class="ventoInfo">-- <span>km/h</span></div>
-                <div class="ventoArea">
-                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
-                </div>
             </div>
+        </div>
+        <div class="description">
+            <div class="descriptionTitulo">Clima atual</div>
+            <div class="descriptionInfo">--</div>
         </div>
     </div>
 
-    <div class="aviso"></div>
+    <div class="carregando"></div>
+    <div class="erro"></div>
 
     <script src="script.js"></script>
 </body>
