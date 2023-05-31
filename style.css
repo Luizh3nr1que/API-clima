@@ -55,7 +55,6 @@ h1 {
 }
 
 #searchInput:focus {
-    overflow-y: hidden;
     border-bottom: 2px solid #5b5fc7;
 }
 
