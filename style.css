@@ -73,6 +73,8 @@ h1 {
     font-size: 25px;
     cursor: pointer;
     display: flex;
+    border:none;
+    outline:none;
     align-items: center;
 }
 
