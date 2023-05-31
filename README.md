@@ -1,6 +1,6 @@
 # API-clima
 
-<b>Fiz esse site pra praticar  <b>
+<b>Este site foi criado com o objetivo de praticar e aprimorar minhas habilidades em requisição API <b>
 <br>
 
 <h1>Tecnologias utilizadas</h1>
@@ -9,5 +9,13 @@
  
 <br>
 
+<h1>Funcionalidades</h1>
+A API do clima é utilizada para exibir as condições climáticas atuais em uma determinada localidade.
+É possível pesquisar diferentes cidades para obter os dados de clima correspondentes.
+O layout responsivo se adapta a diferentes dispositivos e tamanhos de tela.
+ 
+ <br>
+ 
+ 
 <h1>Este projeto pode ser visto aqui</h1>
-https://luizh3nr1que.github.io/plataforma-cursos/
+https://luizh3nr1que.github.io/API-clima/
