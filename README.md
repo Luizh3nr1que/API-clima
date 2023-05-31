@@ -14,8 +14,7 @@ A API do clima é utilizada para exibir as condições climáticas atuais em uma
 É possível pesquisar diferentes cidades para obter os dados de clima correspondentes.
 O layout responsivo se adapta a diferentes dispositivos e tamanhos de tela.
  
- <br>
+<br>
  
- 
-<h1>Este projeto pode ser visto aqui</h1>
-https://luizh3nr1que.github.io/API-clima/
+<h1>Este projeto pode ser visto  <a href='https://luizh3nr1que.github.io/API-clima/'>aqui</a></h1>
+
